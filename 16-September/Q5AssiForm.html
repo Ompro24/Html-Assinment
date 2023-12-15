@@ -6,6 +6,38 @@
     <title>Assignment-Q5</title>
 </head>
 <body>
-    <form action=""></form>
+   <form method="get">
+    <fieldset>
+        <legend>Sign-up Form</legend>
+        <label for="Fname" id="Fname" name="Fname">Enter your First name :</label>
+        <input type="text"id="Fname" name="Fname"autofocus placeholder="FirstName">
+        <br>
+        <label for="Lname" id="Lname" name="Lname">Enter your Last name :</label>
+        <input type="text" id="Lname" name="Lname" placeholder="LastName">
+        <br>
+        <label for="Email" id="Email" name="Email">Enter your Email Address :</label>
+        <input type="email" id="Email" name="Email" minlength="3" placeholder="example@.com">
+        <br>
+        <label for="password" id="password" name="password" >Enter your password :</label>
+        <input type="password" name="password" id="password" minlength="8" placeholder="**********" required>
+        <br>
+        <label for="password" id="cpassword" name="cpassword" >Confirm your password :</label>
+        <input type="password" name="cpassword" id="cpassword" minlength="8" placeholder="**********" required>
+        <br>
+        <label for="age" id="age" name="age">Enter your age :</label>
+        <input type="number" id="age" name="age" min="0" max="150">
+        <br>
+        <label for="Gender" id="Gender" name="Gender">Gender :</label>
+        <input type="radio"id="Male"name="Gender" value="Male">
+        <label for="Gender" id="Male"name="Gender" >Male</label>
+        <input type="radio"id=""name="Gender" value="Female">
+        <label for="Gender" id="Female"name="Gender" >Female</label>
+        <br>
+        <input type="checkbox"id="Condition"name="Condition">
+        <label for="Condition">Agree to terms and conditions</label>
+        <br>
+        <input type="submit" value="Register">
+    </fieldset>
+   </form>
 </body>
 </html>
