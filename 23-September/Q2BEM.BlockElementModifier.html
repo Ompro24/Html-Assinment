@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM </title>
+    <style>
+        /* Block */
+        .paragraph{
+            text-transform: capitalize;
+        }
+
+        /* Element */
+        .paragraph--first{
+            background-color:green;
+
+        }
+        .paragraph--second{
+            background-color: rgb(255, 0, 183);
+        }
+        /* Modifier */
+        .paragraph__subheading{
+            color: aquamarine;
+        }
+        .paragraph__footer{
+            color: orange;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="paragraph paragraph--first">
+        <p class="paragraph__mainheading">This is the heading of the paragraph</p>
+        <p class="paragraph__subheading">This is the subheading of the paragraph</p>
+        <p class="paragraph__footer">This is the Footer of the paragraph</p>
+        
+    </div>
+    <div class="paragraph paragraph--second">
+        <p class="paragraph__mainheading">This is the heading of the paragraph</p>
+        <p class="paragraph__subheading">This is the subheading of the paragraph</p>
+        <p class="paragraph__footer">This is the Footer of the paragraph</p>
+    </div>
+</body>
+</html>
