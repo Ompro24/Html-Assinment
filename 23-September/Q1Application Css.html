@@ -8,24 +8,22 @@
     <link rel="stylesheet" href="Style.css">
     <!-- Below this line ,style tag  is used for "Internal css" -->
     <style>
-        .Class1{
-            background-color: aqua;
+        .InternalCss{
+            background-color:red;
         }
     </style>
 </head>
 <body>
-    <div class="Class1" id="Class1" style="background-color: green;"><!--This line shows demo of application of "Inline css"-->
-        <h1 id="Class1.1">Maharashtra</h1>
-        <ul class="class1">
-            <li>Female</li>
-            <li>Female</li>
-            <li>Male</li>
-        </ul>
-        <h1 id="Class1.2">Kerala</h1>
-        <ul class="class2">
-            <li>Female</li>
-            <li>Male</li>
-            <li>Feamle</li>
+    <div class="Class1" id="Class1" >
+        <h1 style="background-color: green;">Application of Css</h1><!--This line shows demo of application of "Inline css"-->
+        <!-- InlineCss -->
+        <ul>
+            <li style="background-color: aqua;">Inline CSS</li>
+            <!-- Internal CSS -->
+            <li class="InternalCss">Internal CSS</li>
+            <!-- External -->
+            <li class="ExternalCss">External CSS</li>
+            
         </ul>
     </div>
 </body>
