@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form style</title>
+    <style>
+        form{
+            margin: 200px;
+            padding: 100px;
+            font-family: monospace;
+            font-style: initial;
+        }
+        #name{
+        }
+        #email{
+            
+        }
+    </style>
+</head>
+<body>
+    <form >
+        <fieldset >
+            <legend style="font-family:monospace;">Styled Form</legend>
+            <label for="name" id="name">Name :</label>
+            <input type="text" id="name" placeholder="Enter Your Name">
+            <br>
+            <label for="email" id="email" name="email">Email :</label>
+            <input type="email" id="eamil" name="email" placeholder="Enter Your Email">
+            <br>
+            <label for="number" id="number" name="number">Number :</label>
+            <input type="tel" id="number" name="number" placeholder="Enter Your Phone NO" minlength="10" maxlength="10" required>
+            <br>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
