@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form style</title>
     <style>
+        body{
+            background-color: aqua;
+        }
         form{
             margin: 200px;
             padding: 100px;
@@ -30,6 +33,13 @@
             <br>
             <label for="number" id="number" name="number">Number :</label>
             <input type="tel" id="number" name="number" placeholder="Enter Your Phone NO" minlength="10" maxlength="10" required>
+            <br>
+            <label for="gender" id="gender" name="gender">Choose your Gender :</label>
+            <br>
+            <input type="radio" value="Male">
+            <label for="Gender" id="gender" class="male">Male</label>
+            <input type="radio" name="gender" id="Female">
+            <label for="Female" name="gender" id="Female">Female</label>
             <br>
             <input type="submit" value="submit">
         </fieldset>
